@@ -1,24 +1,29 @@
-Užduotį sudaro dvi dalys:
+# 2 laboratorinis darbas — Viženerio šifras
 
-1. Atšifruoti Viženerio šifrą su duotu raktu.
-2. Rasti raktą, kuris buvo naudojamas šifravime.
+## Užduotys
 
-Užduočių variantai faile variantai.zip. Spręsti užduotį esančią faile variantas.txt
+1. Atšifruoti Viženerio šifrą, kai duotas raktas.
+2. Rasti raktą, naudotą šifravimui.
 
-variantas = studento pažymėjimo numeris mod 10 + 1
+## Varianto parinkimas
 
-Užduoties failo struktūra:
+- Variantas apskaičiuojamas taip: `studento pažymėjimo numeris mod 10 + 1`.
+- Sprendžiamas failas `variantai/<variantas>.txt` (universiteto medžiagoje jis minimas kaip `variantas.txt`).
 
-- 1.
-- Užšifruotas tekstas
-- Raktas
-- 2.
-- Užšifruotas tekstas
-- Naudota abėcėlė: aąbcčdeęėfghiįyjklmnoprsštuųūvzž
+## Taisyklės
 
-Simboliai nesantys abėcėlėje turi likti nepakeisti. Didžiosios raidės yra įtrauktos į abėcėlę. Simboliams nesantiems abėcėlėje raktas praleidžiamas t.y., šifruojant tekstą a b c raktas de taikomas kaip d e d, o ne deded.
+- Naudojama abėcėlė: `aąbcčdeęėfghiįyjklmnoprsštuųūvzž`.
+- Simboliai, kurių nėra abėcėlėje, turi likti nepakeisti.
+- Didžiosios raidės laikomos abėcėlės dalimi ir turi išlikti didžiosios.
+- Neabėcėliniams simboliams raktas netaikomas ir jo pozicija nepasislenka. Pavyzdžiui, šifruojant `a b c` raktu `de`, taikomos rakto raidės yra `d e d`, o ne `d e d e d`.
 
-Atsakymo įvedimo forma:
+## Užduoties failo struktūra
+
+1. Užšifruotas tekstas
+2. Raktas
+3. Užšifruotas tekstas, kuriam reikia rasti raktą
+
+## Pateikimo forma
 
 - Variantas
 - Atšifruotas tekstas

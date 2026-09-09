@@ -1,17 +1,14 @@
-1. Užšifruoti tekstą Cezario šifru su duotu poslinkiu
-2. Atšifruoti tekstą užšifruotą Cezario šifru
-   Naudota abėcėlė: aąbcčdeęėfghiįyjklmnoprsštuųūvzž
+# 1 laboratorinis darbas — Cezario šifras
 
-Simboliai nesantys abėcėlėje turi likti nepakeisti. Didžiosios raidės yra įtrauktos į abėcėlę.
+## Užduotys
 
-Užduočių variantai faile variantai.txt
+1. Užšifruoti tekstą Cezario šifru, naudojant pateiktą poslinkį.
+2. Atšifruoti Cezario šifru užšifruotą tekstą.
 
-variantas = studento pažymėjimo numeris mod 10 + 1
+## Taisyklės
 
-Atsakymo įvedimo forma:
-
-Variantas
-
-1. Užšifruotas tekstas
-2. Atšifruotas tekstas
-   Programos kodas
+- Naudojama abėcėlė: `aąbcčdeęėfghiįyjklmnoprsštuųūvzž`.
+- Simboliai, kurių nėra abėcėlėje, turi likti nepakeisti.
+- Didžiosios raidės laikomos abėcėlės dalimi ir turi išlikti didžiosios.
+- Variantas apskaičiuojamas taip: `studento pažymėjimo numeris mod 10 + 1`.
+- Užduočių duomenys pateikti faile `variantai.txt`.
