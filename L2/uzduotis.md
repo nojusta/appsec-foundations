@@ -8,7 +8,7 @@
 ## Varianto parinkimas
 
 - Variantas apskaičiuojamas taip: `studento pažymėjimo numeris mod 10 + 1`.
-- Sprendžiamas failas `variantai/<variantas>.txt` (universiteto medžiagoje jis minimas kaip `variantas.txt`).
+- Sprendžiamas failas `variantai/<variantas>.txt`
 
 ## Taisyklės
 
@@ -19,9 +19,11 @@
 
 ## Užduoties failo struktūra
 
-1. Užšifruotas tekstas
-2. Raktas
-3. Užšifruotas tekstas, kuriam reikia rasti raktą
+- 1.
+- Užšifruotas tekstas
+- 2.
+- Raktas
+- Užšifruotas tekstas, kuriam reikia rasti raktą
 
 ## Pateikimo forma
 
