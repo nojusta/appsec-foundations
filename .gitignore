@@ -220,3 +220,6 @@ __marimo__/
 # macOS Finder metadata
 .DS_Store
 *.pdf
+
+# Large files
+rockyou.txt
