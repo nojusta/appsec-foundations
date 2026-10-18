@@ -1,0 +1,4 @@
+pyotp==2.10.0
+argon2-cffi==25.1.0
+cryptography==50.0.2
+qrcode[pil]==8.2

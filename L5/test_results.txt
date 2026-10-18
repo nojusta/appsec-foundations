@@ -1,0 +1,39 @@
+test_01_enrollment_requires_correct_code (test_mfa.MFATests.test_01_enrollment_requires_correct_code)
+Netaisyklingas kodas neaktyvuoja TOTP. ... ok
+test_02_enrollment_confirmed_and_encrypted (test_mfa.MFATests.test_02_enrollment_confirmed_and_encrypted)
+Aktyvavimas patvirtinamas, paslaptis ir slaptažodis JSON neatskleisti. ... ok
+test_03_both_factors_succeed_after_restart (test_mfa.MFATests.test_03_both_factors_succeed_after_restart)
+Prisijungimas teisingais abiem faktoriais veikia ir iš naujo įkėlus failą. ... ok
+test_04_wrong_password_rejected (test_mfa.MFATests.test_04_wrong_password_rejected)
+Teisingas TOTP nekompensuoja klaidingo slaptažodžio. ... ok
+test_05_wrong_totp_rejected (test_mfa.MFATests.test_05_wrong_totp_rejected)
+Teisingas slaptažodis nekompensuoja klaidingo TOTP. ... ok
+test_06_expired_and_future_codes_rejected (test_mfa.MFATests.test_06_expired_and_future_codes_rejected)
+Priimamas tik dabartinio intervalo kodas. ... ok
+test_07_replay_rejected_after_restart (test_mfa.MFATests.test_07_replay_rejected_after_restart)
+Tas pats priimtas kodas negali būti panaudotas dar kartą. ... ok
+test_08_five_failures_lock_and_expiry (test_mfa.MFATests.test_08_five_failures_lock_and_expiry)
+Blokavimas išlieka po perkrovimo, o po 60 s baigiasi. ... ok
+test_09_no_login_without_mfa (test_mfa.MFATests.test_09_no_login_without_mfa)
+Paskyros sukūrimas dar nesuteikia prieigos be TOTP. ... ok
+test_10_setup_expires_and_cannot_overwrite (test_mfa.MFATests.test_10_setup_expires_and_cannot_overwrite)
+Aktyvavimo laikas ribotas, aktyvus faktorius neperrašomas. ... ok
+test_11_missing_or_wrong_key_rejected (test_mfa.MFATests.test_11_missing_or_wrong_key_rejected)
+Pametus arba pakeitus raktą, paslaptis neatkuriama. ... ok
+test_12_fernet_detects_tampering (test_mfa.MFATests.test_12_fernet_detects_tampering)
+Pakeisto užšifruoto turinio vientisumo patikra nesėkminga. ... ok
+test_13_uri_and_account_checks (test_mfa.MFATests.test_13_uri_and_account_checks)
+QR URI atkuria teisingą paslaptį; vartotojo vardas ir slaptažodžio ilgis tikrinami. ... ok
+test_14_file_lock_prevents_concurrent_operation (test_mfa.MFATests.test_14_file_lock_prevents_concurrent_operation)
+Lygiagretus procesas negali apeiti vienkartinio kodo patikros. ... ok
+test_15_cli_setup_and_login (test_mfa.MFATests.test_15_cli_setup_and_login)
+CLI tikrina abu faktorius, QR failą sukuria ir po aktyvavimo pašalina. ... QR failas: /tmp/tmpajqlbhxd/data/setup_qr.png
+Atidarykite QR paveikslėlį ir nuskaitykite autentifikatoriumi.
+TOTP aktyvuotas. Prisijungimui palaukite naujo kodo.
+Prisijungimas sėkmingas: patikrinti abu faktoriai.
+ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.418s
+
+OK

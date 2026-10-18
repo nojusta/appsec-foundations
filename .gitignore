@@ -223,3 +223,6 @@ __marimo__/
 
 # Large files
 rockyou.txt
+
+.runtime/
+assets/
