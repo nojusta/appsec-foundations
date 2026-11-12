@@ -1,29 +1,35 @@
-Užduotis:
+# 9 laboratorinis darbas — AES
+
+## Užduotis
 
 1. Atšifruokite tekstą užšifruotą AES šifru su 3 raundais.
 2. Užšifruokite savo pavardę AES šifru su 3 raundais.
 
-Užduočių variantai faile variantai.txt
+## Varianto parinkimas
 
-variantas = studento pažymėjimo numeris mod 10 + 1
+Užduočių variantai faile `variantai.txt`
 
-Užduoties failo struktūra:
+`variantas = studento pažymėjimo numeris mod 10 + 1`
+
+## Užduoties failo struktūra
 
 - Variantas
 - Raktas (blokai visiems raundams, keyExpansion daryti nereikia)
 - Tekstas
 
-Pagalbines funkcijas, keitinių bei daugybos lenteles atlikti užduočiai rasite faile aes_helpers.py. Konvertavimui skirtos šios funkcijos:
+## Pagalbinės funkcijos
 
-Raktui ir šifrui konvertuoti į blokus - byte_string_to_blocks.
+Pagalbines funkcijas, keitinių bei daugybos lenteles atlikti užduočiai rasite faile `aes_helpers.py`. Konvertavimui skirtos šios funkcijos:
 
-Atviram tekstui konveruoti į blokus - string_to_blocks.
+- Raktui ir šifrui konvertuoti į blokus - `byte_string_to_blocks`.
 
-Blokams konvertuoti į atvirą tekstą - blocks_to_string.
+- Atviram tekstui konveruoti į blokus - `string_to_blocks`.
 
-Blokams konveruoti į šifrą - blocks_to_byte_string
+- Blokams konvertuoti į atvirą tekstą - `blocks_to_string`.
 
-Atsakymo pateikimo forma:
+- Blokams konveruoti į šifrą - `blocks_to_byte_string`
+
+## Atsakymo pateikimo forma
 
 1. Atšifruotas tekstas
    1. Šifras

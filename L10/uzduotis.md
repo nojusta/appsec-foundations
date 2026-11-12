@@ -16,15 +16,15 @@ Užduočiai atlikti naudokite 9 Laboratorinio darbo AES implementaciją.
 
 Visiems šiframs buvo naudotas tas pats raktas ir IV.
 
-Pagalbines funkcijas rasite faile aes_helpers.py.
+Pagalbines funkcijas rasite faile `aes_helpers.py`.
 
 ## Varianto parinkimas
 
-Užduočių variantai faile variantai.zip. Spręsti užduotį esančią faile variantas.txt
+Užduočių variantai faile `variantai.zip`. Spręsti užduotį esančią faile `variantas.txt`
 
-variantas = studento pažymėjimo numeris mod 10 + 1
+`variantas = studento pažymėjimo numeris mod 10 + 1`
 
-## Užduoties failo struktūra:
+## Užduoties failo struktūra
 
 - Raktas
 - IV
@@ -34,7 +34,7 @@ variantas = studento pažymėjimo numeris mod 10 + 1
 - AES-CFB šifras
 - AES-OFB šifras
 
-## Atsakymo įvedimo forma:
+## Atsakymo įvedimo forma
 
 1. AES-ECB atviras tekstas
 2. AES-CBC atviras tekstas
